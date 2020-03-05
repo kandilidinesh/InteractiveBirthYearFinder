@@ -4,13 +4,25 @@
     <meta charset="utf-8">
     <title>Birth Year</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+
   </head>
   <body>
-    <form class="" action="index.html" method="post">
-      <input type="number" class="textbox" name="number" value="" id="age" placeholder="Enter your age">
-      <input type="button" class="buttonFindYear" name="find" value="Find Year" id="findYear">
-      <p id="yearOfBirth">Year of birth</p>
-    </form>
+    <div class="container demo">
+      <div class="content">
+        <div id="large-header" class="large-header">
+          <canvas id="demo-canvas"></canvas>
+          <form class="main-title" action="index.html" method="post">
+            <input type="number" class="textbox" name="number" value="" id="age" placeholder="Enter your age">
+            <input type="button" class="buttonFindYear" name="find" value="Find Year" id="findYear">
+            <p id="yearOfBirth">Year of birth</p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js" charset="utf-8"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js" charset="utf-8"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js" charset="utf-8"></script>
     <script src="js/interact.js" charset="utf-8"></script>
   </body>
 </html>
