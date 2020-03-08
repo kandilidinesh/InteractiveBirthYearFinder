@@ -7,6 +7,7 @@ function calculate(){
     return;
   }
   var date = new Date().getFullYear();
+  document.getElementById("yearOfBirth").style.visibility='visible';
   document.getElementById("yearOfBirth").style.display = 'block';
   var year = date - age;
   document.getElementById("yearOfBirth").innerHTML ="Your Year of Birth:" + year;

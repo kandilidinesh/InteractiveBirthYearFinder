@@ -19,3 +19,7 @@ form{
   width:100px;
   padding:0;
 }
+
+.yearOfBirthVisibility{
+  visibility: hidden;
+}
